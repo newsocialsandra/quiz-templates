@@ -1,16 +1,13 @@
 body {
 	background-color: #F5FEEC;
 	font-family: Arial, sans-serif;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 h1 {
 	color: #E78E8B;
 	font-size: 80px;
-}
-
-h2 {
-	color: #404050;
-	font-size: 30px;
 }
 
 p {
