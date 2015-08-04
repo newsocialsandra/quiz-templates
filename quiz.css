@@ -1,10 +1,36 @@
 body {
-	background-color: lavenderblush;
+	background-color: #F5FEEC;
 	font-family: Arial, sans-serif;
 }
 
 h1 {
-	color: #B269BB;
+	color: #E78E8B;
 	font-size: 80px;
+}
 
+h2 {
+	color: #404050;
+	font-size: 30px;
+}
+
+p {
+	color: #404050;
+	font-size: 20px;
+}
+
+a {
+	color: #E78E8B;
+	font-weight: bold;
+}
+
+a:visited {
+	color:#A36462;
+}
+
+a:hover {
+	color: #42006a;
+}
+
+#copyright {
+	font-size: 15px;
 }
