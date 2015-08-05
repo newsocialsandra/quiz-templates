@@ -10,6 +10,18 @@ h1 {
 	font-size: 80px;
 }
 
+.container {
+    display: table;
+    width: 100%;
+}
+
+.row {
+	display: table-row;
+}
+.column {
+	display:table-cell;
+}
+
 p {
 	color: #404050;
 	font-size: 20px;
