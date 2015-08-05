@@ -3,6 +3,7 @@ body {
 	font-family: Arial, sans-serif;
 	max-width: 600px;
 	margin: 0 auto;
+	height: 100%;
 }
 
 h1 {
@@ -19,12 +20,13 @@ h1 {
 	display: table-row;
 }
 .column {
-	display:table-cell;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 p {
 	color: #404050;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 a {

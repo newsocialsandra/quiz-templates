@@ -7,23 +7,27 @@
   <link rel="stylesheet" href="quiz.css"> 
   </head>
 <body>
-<h1>VEM FINNS PÅ BILDEN?</h1>
-<div class="container">
-  <div class="row">
-    <div class="column"><a href="quizstart.html">ALLA QUIZ</a></div>
-    <div class="column"><a href="LINK">RANDOM QUIZ</a></div>
-    <div class="column"><a href="LINK">KONTAKT</a></div>
+<div class="header">
+  <h1>VEM FINNS PÅ BILDEN?</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column"><a href="quizstart.html">ALLA QUIZ</a></div>
+      <div class="column"><a href="LINK">RANDOM QUIZ</a></div>
+      <div class="column"><a href="LINK">KONTAKT</a></div>
+    </div>
   </div>
 </div>
 <p>Vem går klädd i svartvita ränder?</p>
 <br>
 <img src="zebra.jpg" alt="zebramönster" width="600">
 <br>
-<ul>
-  <li>Fröken Zebra</li>
-  <li>Herr Leopard</li>
-  <li>Lilla Björn</li>
-</ul>
+<form action="">
+<input type="radio" name="answer" value="male">Herr Zebra<br>
+<input type="radio" name="answer" value="female">Fröken Leopard<br>
+<input type="radio" name="answer" value="female">Lilla Björn<br>
+</form>
+<form action="resultat_monstermastaren.html">
+  <input type="submit" value="RÄTTA">
 <br>
 <br>
 <p id="copyright">Skapad av Sandra Svensson 2015.</p>
